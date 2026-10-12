@@ -1,0 +1,16 @@
+# Spreadsheet lock / temp files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor cruft
+.vscode/
+.idea/
+
+# Internal planning doc (not a reader-facing artifact)
+MODELS-PLAN.md

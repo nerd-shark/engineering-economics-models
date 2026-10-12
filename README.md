@@ -14,6 +14,22 @@ Every workbook follows the same conventions:
 
 ## Models
 
+### [`unit-economics/`](./unit-economics/) — Unit economics & cost-curve simulator
+
+Plots whether your cost per unit falls, holds, or rises against revenue per unit as you scale from 1x to 1000x, and flags the volume where margin goes negative. Reproduces the "three cost curves" (sublinear / linear / superlinear) from the article.
+
+Companion to **"Cost as a Non-Functional Requirement: The Frugal Architect"** (Part 3).
+
+> Download: [`unit-economics-calculator.xlsx`](./unit-economics/unit-economics-calculator.xlsx)
+
+### [`shared-services-chargeback/`](./shared-services-chargeback/) — Shared-services chargeback allocator
+
+Shows each team's bill for a shared service under all three allocation methods (split equally, by usage, absorb centrally), and the cross-subsidy that equal split quietly creates. Includes the cross-AZ data-transfer worked example.
+
+Companion to **"Cloud Cost Allocation as Architecture: Your Bill Is an X-Ray"** (Part 4).
+
+> Download: [`shared-services-chargeback-calculator.xlsx`](./shared-services-chargeback/shared-services-chargeback-calculator.xlsx)
+
 ### [`build-buy-automate-tco/`](./build-buy-automate-tco/) — Build vs. Buy vs. Automate TCO calculator
 
 A five-year total-cost-of-ownership model for the build-vs-buy-vs-automate decision. The build estimate is the deposit; maintenance is the mortgage. Simple cash mode plus an advanced after-tax NPV mode (capex vs. opex, Section 174 amortization, the tax shield, discounting).

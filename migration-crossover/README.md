@@ -87,8 +87,7 @@ The article anchors the model to a real case: the IRS **Individual Master File**
 
 ## Read the full article
 
-**[The Economics of Migration: Sunk Cost vs. Rip-and-Replace](#)** — Engineering Economics, Part 6.
-*(Replace this with the published article URL.)*
+**[The Economics of Migration: Sunk Cost vs. Rip-and-Replace](https://medium.com/@the-architect-ds/the-economics-of-migration-sunk-cost-vs-rip-and-replace-8a360c692004)** — Engineering Economics, Part 6.
 
 Part of the Engineering Economics series: why good technical decisions are also financial decisions. This calculator lives in the [engineering-economics-models](../) collection alongside the other models from the series.
 
